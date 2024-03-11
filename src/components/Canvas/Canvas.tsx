@@ -31,7 +31,7 @@ const Canvas = ({ imageUrl, jsonData }: ICanvasProps) => {
         <div className={styles.canvaContainer}>
             <Stage width={dimensions.width} height={dimensions.height}>
                 <Layer>
-                    <KonvaImage image={image} width={dimensions.width} height={dimensions.height} />
+                    <KonvaImage image={image}  />
                     {/* Render lines for each box */}
                     {boxes.map((box, acc) => (
                         <Line

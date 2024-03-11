@@ -20,8 +20,8 @@ const ImageUploader = ({ setImageSrc }: ImageUploaderProps) => {
                     const img = new Image();
                     img.src = reader.result;
                     // Set the width and height
-                    const newWidth = 300; // Example width
-                    const newHeight = 200; // Example height
+                    const newWidth = 700; // Example width
+                    const newHeight = 500; // Example height
                     img.onload = () => {
                         const canvas = document.createElement('canvas');
                         canvas.width = newWidth;
