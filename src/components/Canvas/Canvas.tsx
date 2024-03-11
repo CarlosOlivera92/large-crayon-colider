@@ -37,7 +37,7 @@ const Canvas = ({ imageUrl, jsonData }: ICanvasProps) => {
                         <Line
                             key={`box-${acc}`}
                             points={box.polygon.flat()} // Flatten the polygon points
-                            fill="blue"
+                            fill="rgba(239, 83, 80, 0.5)" 
                             closed // Close the line
                             scaleX={dimensions.width} // Scale line width with image width
                             scaleY={dimensions.height} // Scale line height with image height
