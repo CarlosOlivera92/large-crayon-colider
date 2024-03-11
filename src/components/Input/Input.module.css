@@ -21,3 +21,14 @@
 .input {
     display: none;
 }
+@media screen and (max-width: 1024px) {
+    .customInput {
+        background-color: var(--cir-indigo-100);
+        color: var(--cir-indigo-400);
+        font-weight: bolder;
+        cursor: pointer;
+        padding: .5rem;
+        border-radius: .5rem;
+        transition: all .2s ease-in-out;
+    }
+}

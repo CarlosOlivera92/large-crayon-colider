@@ -6,3 +6,9 @@
     padding-block: 1rem;
     padding-inline: 1rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .imageUploaderWrapper {
+        padding-inline: 0;
+    }
+}
