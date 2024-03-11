@@ -1,0 +1,8 @@
+.imageUploaderWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+}

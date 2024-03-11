@@ -1,0 +1,18 @@
+.inputWrapper {
+    width: fit-content;
+}
+.customInput {
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: .5rem;
+    transition: background-color .2s ease-in-out;
+}
+.customInput:hover {
+    background-color: var(--cir-indigo-300);
+}
+.customInput:active {
+    background-color: var(--cir-indigo-400);
+}
+.input {
+    display: none;
+}

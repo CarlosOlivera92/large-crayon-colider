@@ -1,0 +1,41 @@
+:root {  
+    --clr-neutral-0: #ffffff;
+    --cir-neutral-50: #f1f3f7;
+    --clr-neutral-100: #fafafa;
+    --clr-neutral-100-t: #fafafad2;
+    --clr-neutral-200: #e1e4ed;
+    --clr-neutral-500: #5d5d5d;
+    --clr-neutral-900: #212121;
+
+    --cir-red-50: #ffebee;
+    --cir-red-100: #ffcdd2;
+    --cir-red-200: #ef9a9a;
+    --cir-red-300: #e57373;
+    --cir-red-400: #ef5350;
+    
+    --cir-pink-50: #fce4ec;
+    --cir-pink-100: #f8bbd0;
+    --cir-pink-200: #f48fb1;
+    --cir-pink-300: #f06292;
+    --cir-pink-400: #ec407a;
+    
+    --cir-purple-50: #f3e5f5;
+    --cir-purple-100: #e1bee7;
+    --cir-purple-200: #ce93d8;
+    --cir-purple-300: #ba68c8;
+    --cir-purple-400: #ab47bc;
+    
+    --cir-deep-purple-50: #ede7f6;
+    --cir-deep-purple-100: #d1c4e9;
+    --cir-deep-purple-200: #b39ddb;
+    --cir-deep-purple-300: #9575cd;
+    --cir-deep-purple-400: #7e57c2;
+    
+    --cir-indigo-50: #e8eaf6;
+    --cir-indigo-100: #c5cae9;
+    --cir-indigo-200: #9fa8da;
+    --cir-indigo-300: #7986cb;
+    --cir-indigo-400: #5c6bc0;
+    
+    --roboto: "roboto", sans-serif;
+}

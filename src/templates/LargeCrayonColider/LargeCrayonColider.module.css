@@ -1,0 +1,30 @@
+.largeCrayonContainer {
+    width: fit-content;
+    height: fit-content;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(93, 93, 93, 0.8); /* Color de fondo ajustado */
+    border-radius: 1rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Nuevo color de sombra */
+}
+.largeCrayonWrapper {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 1.5rem; 
+}
+.imgWrapper img{
+    border-radius: 1rem;
+}
+.jsonUploaderContainer canvas {
+    border-radius: 1rem;
+}
