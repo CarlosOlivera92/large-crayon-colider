@@ -4,6 +4,7 @@ import JsonUploader from "@components/JsonUploader/JsonUploader";
 import Canvas from "@components/Canvas/Canvas";
 import { useState } from "react";
 const LargeCrayonColider = () => {
+    //States for storage the image source and the JSON data
     const [imageSrc, setImageSrc] = useState<string | null>(null);
     const [jsonData, setJsonData] = useState<any | null>(null);
 

@@ -15,6 +15,10 @@
     transform: translate(-50%, -50%);
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3); 
 }
+.sectionTitle {
+    color: var(--cir-orange-400);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
 .largeCrayonWrapper {
     width: 100%;
     display: flex;
@@ -26,9 +30,10 @@
     border-radius: 1rem;
     transition: box-shadow .2s ease-in-out;
 }
-.imgWrapper img:hover, .jsonUploaderContainer canvas {
+.imgWrapper img:hover, .jsonUploaderContainer canvas:hover {
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3); 
 }
 .jsonUploaderContainer canvas {
     border-radius: 1rem;
+    transition: box-shadow .2s ease-in-out;
 }
