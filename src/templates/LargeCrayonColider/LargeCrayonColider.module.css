@@ -7,13 +7,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(93, 93, 93, 0.8); /* Color de fondo ajustado */
+    background-color: rgba(93, 93, 93, 0.8); 
     border-radius: 1rem;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Nuevo color de sombra */
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3); 
 }
 .largeCrayonWrapper {
     width: 100%;
@@ -24,6 +24,10 @@
 }
 .imgWrapper img{
     border-radius: 1rem;
+    transition: box-shadow .2s ease-in-out;
+}
+.imgWrapper img:hover, .jsonUploaderContainer canvas {
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3); 
 }
 .jsonUploaderContainer canvas {
     border-radius: 1rem;
